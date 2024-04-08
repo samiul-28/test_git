@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'blogs/index'
+  get 'blogs/view'
   get 'articles/index'
   get 'articles/view'
   get 'articles/new'
